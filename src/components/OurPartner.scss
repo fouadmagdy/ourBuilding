@@ -1,0 +1,47 @@
+.outPartner {
+  text-align: center;
+  color: #233342;
+  background-color: #fbf6f3;
+
+  .row {
+    top: 8rem;
+    left: 30%;
+  }
+
+  &__h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    padding-top: 3rem;
+    position: relative;
+    text-transform: uppercase;
+
+    &:before {
+      content: '';
+      position: absolute;
+      width: 50%;
+      height: 3px;
+      left: 10rem;
+      bottom: 5rem;
+      background: #ba932e;
+    }
+  }
+  &__p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .outPartner {
+    &__h2 {
+      font-size: 1.5rem;
+
+      &::before {
+        left: 6rem;
+      }
+    }
+
+    .row {
+      position: static !important;
+    }
+  }
+}

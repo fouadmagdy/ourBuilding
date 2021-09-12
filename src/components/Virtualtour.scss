@@ -1,0 +1,64 @@
+.virtualTour {
+  background: url(../images/b3.png) no-repeat;
+  background-size: cover;
+  background-color: #fbf6f3;
+
+  .pt-20rem {
+    padding-top: 20rem;
+
+    .position-absolute {
+      left: 38%;
+      top: 30%;
+      h2 {
+        font-size: 4rem;
+        font-family: BrownStd-Bold;
+
+        .gold-color {
+          color: #ba932e;
+        }
+      }
+
+      &.virtualTour--p {
+        top: 47%;
+        left: 50%;
+
+        p {
+          color: #fbf6f3;
+          font-family: BrownStd-Light;
+        }
+
+        button {
+          border-radius: 7px;
+          border: solid 2px #ba932e;
+          font-size: 0.7rem;
+          padding: 0.5rem 1rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .virtualTour {
+    .pt-20rem {
+      padding-top: 3rem;
+
+      .position-absolute {
+        top: 21%;
+        h2 {
+          font-size: 1.5rem;
+        }
+        &.virtualTour--p {
+          position: static !important;
+          margin-top: 1rem;
+          p {
+            color: #ba932e;
+          }
+          button {
+            background-color: #ba932e !important;
+          }
+        }
+      }
+    }
+  }
+}

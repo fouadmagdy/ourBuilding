@@ -1,0 +1,21 @@
+@import '~bootstrap/scss/bootstrap';
+
+@font-face {
+  font-family: BrownStd;
+  src: url(./fonts/BrownStdRegular.otf);
+}
+
+@font-face {
+  font-family: BrownStd-Bold;
+  src: url(./fonts/BrownStdBold.otf);
+}
+
+@font-face {
+  font-family: BrownStd-Light;
+  src: url(./fonts/BrownStdLight.otf);
+}
+
+body {
+  font-family: BrownStd, sans-serif;
+  overflow-x: hidden;
+}
